@@ -5,6 +5,7 @@
 /**
  * main - Entry point
  *
+ *is written by hajar and Nisrine from alx's team project 
  * Return: Always 0
  */
 int main(void)
