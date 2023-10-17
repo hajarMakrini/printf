@@ -153,5 +153,4 @@ int print_int(va_list types, char buffer[],
  *
  * is written by hajar and nisrine.
  * @types: Lista of arguments
- * @buffer: Buffer array to handle print
-
+ * @buffer: Buffer array to handle print.
