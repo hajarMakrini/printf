@@ -5,8 +5,6 @@
 /**
  * main - Entry point
  *
- * is written by hajar and Nisrine from alx's team project.
- *
  * Return: Always 0
  */
 int main(void)
@@ -32,7 +30,8 @@ _printf("Unsigned hexadecimal:[%x, %X]\n", ui, ui);
 printf("Unsigned hexadecimal:[%x, %X]\n", ui, ui);
 _printf("Character:[%c]\n", 'H');
 printf("Character:[%c]\n", 'H');
-_printf("String:[%s]\n", "I am a string !");
+
+_printf("String:[%s]\n", "I am a string !"); 
 printf("String:[%s]\n", "I am a string !");
 _printf("Address:[%p]\n", addr);
 printf("Address:[%p]\n", addr);
@@ -42,6 +41,5 @@ _printf("Len:[%d]\n", len);
 printf("Len:[%d]\n", len2);
 _printf("Unknown:[%r]\n");
 printf("Unknown:[%r]\n");
-
 return (0);
 }

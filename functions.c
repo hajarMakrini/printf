@@ -143,7 +143,7 @@ int print_int(va_list types, char buffer[],
 	}
 
 	i++;
-	rout =  (write_number(is_negative, i, buffer, flags, width, precision, size);
+	rout = write_number(is_negative, i, buffer, flags, width, precision, size);
 	return (rout);
 }
 
@@ -154,3 +154,4 @@ int print_int(va_list types, char buffer[],
  * is written by hajar and nisrine.
  * @types: Lista of arguments
  * @buffer: Buffer array to handle print.
+ */
